@@ -38,8 +38,5 @@ public class LeadRestController {
 	{
 		leadrepo.save(lead);
 	}
-	@DeleteMapping("deleteapi/{id}")
-	public void deletedata(@PathVariable("id") long id) {
-		leadrepo.deleteById(id);
-	}
+	
 }
